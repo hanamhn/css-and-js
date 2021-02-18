@@ -1,12 +1,11 @@
-.block{
-    width: 150px;
-    height: 150px;
-    background-color: orange;
-    border: 1px solid red;
-    font-size: 30px;
-    color: white;
+@font-face{
+    font-family: 'CHANTELLI ANTIQUA';
+    src: url(../font/Chantelli_Antiqua-webfont.woff) format('woff'), 
+    url(../font/Chantelli_Antiqua-webfont.ttf) format('truetype')
 }
 
-.container{
-    display: flex;
+h1{
+    font-size: 24px;
+    font-family: 'CHANTELLI ANTIQUA';
+    font-family: 'Lemonada', cursive;
 }
